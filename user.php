@@ -1,8 +1,8 @@
 <?php
 
-use utilisateur as GlobalReserver;
+use user as GlobalReserver;
 
-class utilisateur {
+class user {
     private $Id_Utilisateur  ;
     private $login;
     private $Mdp;
@@ -11,8 +11,8 @@ class utilisateur {
 
 
 
-    function __construct($Id_Utilisateur  , $login, $Mdp,$DateEtape,$Duree){
-        $this->$Id_Utilisateur   = $$Id_Utilisateur  ;
+    function __construct($Id_Utilisateur  , $login, $Mdp){
+        $this->Id_Utilisateur=$Id_Utilisateur;
         $this->login = $login;
         $this->Mdp = $Mdp;
 

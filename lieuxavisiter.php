@@ -1,8 +1,4 @@
-NomLieu 
-Ville 
-Pays 
-Descriptif
-PrixVisite
+
 <?php
 
 use lieuxavisiter as GlobalReserver;

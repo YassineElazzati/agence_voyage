@@ -7,7 +7,7 @@ class reservation {
     private $DateReservation_;
     private $NbPlaceReservee;
 
-    function __construct($Id_Reservation , $DateReservation_, $NbPlaceReservee,$DateEtape,$Duree){
+    function __construct($Id_Reservation , $DateReservation_, $NbPlaceReservee){
         $this->$Id_Reservation  = $$Id_Reservation ;
         $this->DateReservation_ = $DateReservation_;
         $this->NbPlaceReservee = $NbPlaceReservee;    

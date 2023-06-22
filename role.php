@@ -5,9 +5,9 @@ use role as GlobalReserver;
 class role {
     private $Id_Role ;
     private $Designation;
-    private $Mdp;
+   
 
-    function __construct($Id_Role   , $Designation, $Mdp,$DateEtape,$Duree){
+    function __construct($Id_Role   , $Designation){
     $this->$Id_Role = $$Id_Role;
     $this->Designation = $Designation;
     }

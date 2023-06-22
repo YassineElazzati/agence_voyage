@@ -38,25 +38,12 @@ class client {
         $this->Prenom= $Prenom;
         
     }
-    function getNom(){
-        return $this->Nom;
-    }
-    function setNom($Nom){
-        $this->Nom= $Nom;      
-    }   
-
+  
     function getDateNaissance(){
         return $this->DateNaissance ;
     }
     function setDateNaissance($DateNaissance){
         $this->DateNaissance=$DateNaissance;
-    }
-
-    function getTelephone (){
-        return $this->Telephone  ;
-    }
-    function setTelephone ($Telephone ){
-        $this->Telephone =$Telephone ;
     }
 
     function getTelephone (){

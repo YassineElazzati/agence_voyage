@@ -16,7 +16,7 @@ class circuit {
 
 
     function __construct($Id_Circuit, $Descriptif, $VilleDepart,$VilleArrivee,$PaysDepart,$PaysArrivee,$DateDepart,$Duree,$PrixInscription){
-        $this->$Id_Circuit = $Id_Circuit;
+        $this->Id_Circuit = $Id_Circuit;
         $this->Descriptif = $Descriptif;
         $this->VilleDepart = $VilleDepart;
         $this->VilleArrivee = $VilleArrivee;
@@ -67,14 +67,6 @@ class circuit {
     function setPaysArrivee($PaysArrivee){
         $this->PaysArrivee=$PaysArrivee;
     }
-
-    function getPaysArrivee(){
-        return $this->PaysArrivee ;
-    }
-    function setPaysArrivee($PaysArrivee){
-        $this->PaysArrivee=$PaysArrivee;
-    }
-
     function getDateDepart(){
         return $this->DateDepart ;
     }

@@ -1,8 +1,4 @@
-Id_Etape 
-IdentifiantCircuit 
-Ordre
-DateEtape
-Duree
+
 
 <?php
 
